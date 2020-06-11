@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="brand">
+                    <div>NICOLE KULAKOWSKI</div>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio1.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">This is a project.</div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio2.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">This is also a project.</div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio3.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">And this is a project.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+    portfolioItems.forEach(item => {
+        item.addEventListener('mouseover', () => {
+            let child = item.querySelector('.portfolio-img-background');
+            child.classList.add('img-darken');
+
+        });
+
+        item.addEventListener('mouseout', () => {
+            let child = item.querySelector('.portfolio-img-background');
+            child.classList.remove('img-darken');
+
+        });
+    })
+</script>
+</html>

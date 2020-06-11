@@ -64,6 +64,7 @@ body {
 
 .portfolio-item-wrapper {
     position: relative;
+    cursor: pointer;
 }
 
 .portfolio-img-background {

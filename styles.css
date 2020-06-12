@@ -123,3 +123,32 @@ body {
 .profile-content-wrapper h1 {
     color: turquoise;
 }
+
+/* Contact info */
+
+.contact-wrapper {
+     text-align: center;
+ }
+
+.contact-item {
+    display: inline-block;
+    width: fit-content;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    color: black;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Logo at bottom of page */
+ .copyright-wrapper {
+     text-align: center;
+ }
+
+ .copyright-item {
+     display: inline-block;
+ }

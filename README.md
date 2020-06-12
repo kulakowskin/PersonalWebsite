@@ -5,7 +5,7 @@ TODO:
 - Differentiate between private and public projects
 - Create description pages for each project instead of linking directly to Github
 - Provide contact info > LinkedIn, Github, Instagram(?), email
-+ Add icon to tab
+- Add icon to tab --> DONE
 - Create short bio > if good, update to LinkedIn too
 - Fix picture
 - Take it live!

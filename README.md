@@ -11,7 +11,7 @@ TODO:
 - Fix picture
 - Take it live!
 - Post link to LinkedIn bio
-- Add logo at bottom of page
+- Add logo at bottom of page --> FAIL. Need better logo.
 
 
 Sources:
